@@ -3,80 +3,403 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>figma-project_magali</title>
+    <title>Magali Bogarin | Front-End Developer</title>
 
     <link rel="stylesheet" href="styles.css" class="stylesheet" />
+
+    <!-- <a href="#main" class="skip-link">Skip to content</a> -->
   </head>
   <body>
-    <header>
-      <nav class="top-section">
+    <!-- NAV BAR -->
+    <header class="homepage">
+      <nav class="navbar">
         <!-- <div></div> -->
-
-        <div class="menu-links">
+        <div class="navbar-links">
           <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="index.html">Case Studies</a></li>
-            <li><a href="index.html">Testimonials</a></li>
-            <li><a href="index.html">Recent Work</a></li>
-            <li><a href="index.html">Get In Touch</a></li>
+            <li><a href="#case-studies">Case Studies</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#recent-work">Recent Work</a></li>
+            <li><a href="#contact">Get In Touch</a></li>
           </ul>
+        </div>
 
-          <div class="social-media-icons">
-            <img
-              src="assets/LinkedIn.svg"
-              class="icon-1"
-              alt="social media icons"
-            />
-            <img
-              src="assets/Behance.svg"
-              class="icon-2"
-              alt="social media icons"
-            />
-            <img
-              src="assets/Twitter.svg"
-              class="icon-3"
-              alt="social media icons"
-            />
-          </div>
+        <div class="social-media-icons">
+          <img
+            src="assets/LinkedIn.svg"
+            class="icon-1"
+            alt="social media icons"
+          />
+          <img
+            src="assets/Behance.svg"
+            class="icon-2"
+            alt="social media icons"
+          />
+          <img
+            src="assets/Twitter.svg"
+            class="icon-3"
+            alt="social media icons"
+          />
         </div>
       </nav>
+
+      <!-- HERO  -->
+      <section class="hero">
+        <div class="hero-content">
+          <div class="header-box">
+            <div class="header-text">
+              <h1 class="name">Magali Bogarin</h1>
+              <p class="hero-intro-text">
+                Front-end developer focused on building responsive, accessible,
+                and visually engaging web experiences. I turn design concepts
+                into clean, functional code that works across all devices.
+              </p>
+            </div>
+
+            <div class="header-button">
+              <p>View My Work</p>
+              <img src="assets/Vector.svg" alt="Vector" />
+            </div>
+          </div>
+
+          <div class="photo-box">
+            <div class="photo">
+              <img src="assets/self-portrait.jpg" alt="self-portrait" />
+            </div>
+          </div>
+        </div>
+
+        <div class="bottom-section">
+          <div class="text-box">
+            <p>Core Technologies</p>
+          </div>
+
+          <div class="hero-logos">
+            <img src="assets/html5-logo.svg" class="logo-1" alt="HTML5 logo" />
+            <img src="assets/css-logo-2.svg" class="logo-2" alt="CSS3 logo" />
+            <img src="assets/vscode.svg" class="logo-3" alt="VS Code logo" />
+            <img src="assets/git-logo-3.svg" class="logo-4" alt="Git logo" />
+            <img
+              src="assets/figma-logo-1.svg"
+              class="logo-5"
+              alt="Figma logo"
+            />
+          </div>
+        </div>
+      </section>
     </header>
 
-    <main>
-      <header class="middle-section">
-        <div class="banner-box">
-          <div class="banner-text">
-            <h1 class="name">Magali Bogarin</h1>
-            <p class="intro-text">
-              Intro text: Lorem ipsum dolor sit, amet consectetur adipisicing
-              elit. Consequatur, quibusdam!
+    <main id="main">
+      <!-- === Case Studies === -->
+      <section id="case-studies" class="case-studies">
+        <div class="page-title">
+          <!-- title -->
+          <h1 class="title">Case Studies</h1>
+
+          <!-- intro text -->
+          <p class="intro-text">
+            A selection of interface concepts and web experiences demonstrating
+            my ability to transform design ideas into responsive, functional,
+            and user-focused digital products.
+          </p>
+        </div>
+
+        <!-- Work 1 -->
+        <div class="cs-box">
+          <div class="content-grid">
+            <!-- tags -->
+            <div id="tag1" class="tags">
+              <span>SaaS</span>
+            </div>
+
+            <!-- text -->
+            <h2 class="work-name">TaskFlow Dashboard</h2>
+            <!-- work text -->
+            <p class="work-text">
+              A productivity dashboard interface designed for managing tasks,
+              tracking progress, and improving workflow efficiency. Built with
+              responsive layouts and reusable UI components.
             </p>
+            <!-- view button -->
+            <button id="orange" class="view-button">
+              <span>View Work</span>
+              <img src="assets/right-arrow-icon.svg" alt="know-vector-icon" />
+            </button>
           </div>
-
-          <div class="banner-btn">
-            <p>Let's get started</p>
-            <img src="assets/Vector.svg" alt="Vector" />
+          <!-- photo -->
+          <div class="image-box">
+            <div class="work-image">
+              <img
+                src="assets/CS-image-1.svg"
+                alt="Screenshot of TaskFlow dashboard interface"
+              />
+            </div>
           </div>
         </div>
 
-        <div class="photo-box">
-          <div class="photo">
-            <img src="https://placehold.co/200x300" alt="self-portrait" />
+        <!-- WORK 2 -->
+        <div class="cs-box">
+          <!-- photo -->
+          <div class="image-box">
+            <div class="work-image">
+              <img
+                src="assets/CS-image-2.svg"
+                alt="Screenshot of LearnHub landing page"
+              />
+            </div>
+          </div>
+
+          <div class="content-grid">
+            <!-- tags -->
+            <div id="tag2" class="tags">
+              <span>EdTech</span>
+            </div>
+
+            <!-- work name -->
+            <h2 class="work-name">LearnHub Landing Page</h2>
+
+            <!-- work text -->
+            <p class="work-text">
+              A modern educational platform landing page focused on user
+              engagement and clear content hierarchy. Designed for conversion
+              and accessibility across devices.
+            </p>
+
+            <!-- view button -->
+            <button id="blue" class="view-button">
+              <span>View Work</span>
+              <img src="assets/right-arrow-icon.svg" alt="know-vector-icon" />
+            </button>
           </div>
         </div>
-      </header>
 
-      <div class="bottom-section">
-        <p>Worked with</p>
+        <!-- WORK 3 -->
+        <div class="cs-box">
+          <div class="content-grid">
+            <!-- tags -->
+            <div id="tag3" class="tags">
+              <span>HealthTech</span>
+            </div>
 
-        <div class="clients-box">
-          <img src="assets/Logo 1.svg" class="logo-1" alt="client-logo" />
-          <img src="assets/Logo 2.svg" class="logo-2" alt="client-logo" />
-          <img src="assets/Logo 3.svg" class="logo-3" alt="client-logo" />
-          <img src="assets/Logo 4.svg" class="logo-4" alt="client-logo" />
-          <img src="assets/Logo 5.svg" class="logo-5" alt="client-logo" />
+            <!-- work name -->
+            <h2 class="work-name">FitTrack Interface</h2>
+
+            <!-- work text -->
+            <p class="work-text">
+              A fitness tracking interface concept featuring performance
+              metrics, progress visualization, and modular design components for
+              scalability.
+            </p>
+
+            <!-- view button -->
+            <button id="green" class="view-button">
+              <span>View Work</span>
+              <img src="assets/right-arrow-icon.svg" alt="know-vector-icon" />
+            </button>
+          </div>
+          <!-- photo -->
+          <div class="image-box">
+            <div class="work-image">
+              <img
+                src="assets/CS-image-3.svg"
+                alt="Screenshot of FitTrack dashboard interface"
+              />
+            </div>
+          </div>
         </div>
-      </div>
+      </section>
+
+      <!-- ========== TESTIMONIALS ========== -->
+      <section id="testimonials" class="testimonials">
+        <div class="page-title">
+          <!-- title -->
+          <h1 class="title">Testimonials</h1>
+
+          <!-- intro text -->
+          <p class="intro-text">
+            Feedback from collaborators and designers I’ve worked with on UI and
+            front-end development projects.
+          </p>
+        </div>
+
+        <!-- quote icon -->
+        <!-- <div class="quote">
+          <img src="assets/quote-icon.svg" class="q1" alt="quote-icon" />
+        </div> -->
+
+        <div class="content-grid">
+          <!-- T-1 -->
+
+          <div id="t-box-1" class="t-box">
+            <p>
+              Magali consistently delivers clean, efficient code and
+              communicates clearly throughout projects.
+            </p>
+            <div class="t-photo-content">
+              <div class="t-photo-box">
+                <img src="https://placehold.co/50x50" alt="Client photo" />
+              </div>
+
+              <h2>— Daniel Rivera, Product Designer</h2>
+            </div>
+          </div>
+
+          <!-- T-2 -->
+          <div id="t-box-2" class="t-box">
+            <p>
+              Her ability to translate design into responsive layouts is
+              impressive and reliable.
+            </p>
+
+            <div class="t-photo-content">
+              <div class="t-photo-box">
+                <img src="https://placehold.co/50x50" alt="Client photo" />
+              </div>
+
+              <h2>— Sofia Martinez, UI Lead</h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="content-grid">
+          <!-- T-3 -->
+
+          <div class="t-box">
+            <p>
+              She approaches problems logically and always finds solutions that
+              improve usability.
+            </p>
+
+            <div class="t-photo-content">
+              <div class="t-photo-box">
+                <img src="https://placehold.co/50x50" alt="Client photo" />
+              </div>
+
+              <h2>— Jason Lee, Project Manager</h2>
+            </div>
+          </div>
+
+          <!-- T-4 -->
+          <div class="t-box">
+            <p>
+              Professional, detail-oriented, and fast. I'd collaborate with her
+              again anytime.
+            </p>
+
+            <div class="t-photo-content">
+              <div class="t-photo-box">
+                <img src="https://placehold.co/50x50" alt="Client photo" />
+              </div>
+              <h2>Rachel Kim, Developer</h2>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== RECENT WORK ========== -->
+      <section id="recent-work" class="recent-work">
+        <div class="page-title">
+          <!-- title -->
+          <h1 class="title">Recent Work</h1>
+
+          <!-- intro text -->
+          <p class="intro-text">
+            A few additional interface builds and layout explorations showcasing
+            versatility in design implementation and component structure.
+          </p>
+        </div>
+
+        <!-- RW content -->
+        <div class="rw-content-grid">
+          <!-- work 1 -->
+          <div class="rw-content">
+            <!-- photo -->
+            <div class="rw-photo-box">
+              <img src="assets/RW-image-1.svg" alt="Recent work photo" />
+            </div>
+            <!-- text -->
+            <h2>EventSpace Website</h2>
+            <p>
+              Responsive event venue website featuring modern UI layout and
+              interactive elements.
+            </p>
+            <!-- button -->
+            <button class="know-button">
+              <span>Know more</span>
+              <img src="assets/right-arrow-icon.svg" alt="know-vector-icon" />
+            </button>
+          </div>
+
+          <!-- work 2 -->
+          <div class="rw-content">
+            <!-- photo -->
+            <div class="rw-photo-box">
+              <img src="assets/RW-image-2.svg" alt="Recent work photo" />
+            </div>
+            <!-- text -->
+            <h2>WeatherNow App</h2>
+            <p>
+              A weather interface displaying real-time forecast data and
+              location search functionality.
+            </p>
+            <!-- button -->
+            <button class="know-button">
+              <span>Know more</span>
+              <img src="assets/right-arrow-icon.svg" alt="right arrow vector" />
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== CONTACT ========== -->
+      <section id="contact" class="contact">
+        <div class="page-title">
+          <!-- title -->
+          <h1 class="title">Get In Touch</h1>
+
+          <!-- intro text -->
+          <p class="intro-text">
+            Have a project idea or opportunity? Let’s connect and bring it to
+            life.
+          </p>
+        </div>
+
+        <!-- form -->
+        <form action="#" method="POST">
+          <!-- email -->
+          <div class="input-box">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              placeholder="Please enter your email"
+              required
+            />
+          </div>
+
+          <!-- mobile -->
+          <div class="input-box">
+            <label for="mobile">Mobile</label>
+            <input type="text" placeholder="Enter mobile " />
+          </div>
+
+          <!-- message -->
+          <div class="input-box">
+            <label for="message">Message</label>
+            <textarea placeholder="Enter your message" required></textarea>
+          </div>
+
+          <!-- submit -->
+          <div class="submit-btn">
+            <input type="submit" value="Submit" />
+            <img src="assets/right-arrow-icon.svg" alt="right arrow vector" />
+          </div>
+        </form>
+      </section>
     </main>
+
+    <!-- ========== FOOTER ========== -->
+    <footer>
+      <p>© 2026 Magali Bogarin — Front-End Developer</p>
+    </footer>
   </body>
 </html>
