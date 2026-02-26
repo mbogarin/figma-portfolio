@@ -20,11 +20,8 @@ html {
 body {
   color: #ffffff;
   font-family: "IBM Plex Mono", monospace;
-  /* max-width: 1300px; */
   width: 100%;
   margin: auto;
-  /* padding-top: 90px; */
-  /* margin-top: 100px; */
 }
 
 ul,
@@ -166,7 +163,7 @@ nav {
   padding-top: 50px;
 }
 
-.header-box {
+.header-text-box {
   display: flex;
   flex-direction: column;
   gap: 25px;
