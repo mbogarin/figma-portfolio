@@ -12,34 +12,41 @@
   <body>
     <!-- NAV BAR -->
     <header class="homepage">
-      <nav class="navbar">
-        <!-- <div></div> -->
-        <div class="navbar-links">
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#case-studies">Case Studies</a></li>
-            <li><a href="#testimonials">Testimonials</a></li>
-            <li><a href="#recent-work">Recent Work</a></li>
-            <li><a href="#contact">Get In Touch</a></li>
-          </ul>
-        </div>
+      <nav class="navbar-links">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#case-studies">Case Studies</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#recent-work">Recent Work</a></li>
+          <li><a href="#contact">Get In Touch</a></li>
+        </ul>
 
         <div class="social-media-icons">
-          <img
-            src="assets/LinkedIn.svg"
-            class="icon-1"
-            alt="social media icons"
-          />
-          <img
-            src="assets/Behance.svg"
-            class="icon-2"
-            alt="social media icons"
-          />
-          <img
-            src="assets/Twitter.svg"
-            class="icon-3"
-            alt="social media icons"
-          />
+          <div class="media-icon-box">
+            <img
+              src="assets/LinkedIn.svg"
+              class="icon-1"
+              alt="social media icons"
+              loading="lazy"
+            />
+          </div>
+
+          <div class="media-icon-box">
+            <img
+              src="assets/Behance.svg"
+              class="icon-2"
+              alt="social media icons"
+              loading="lazy"
+            />
+          </div>
+          <div class="media-icon-box">
+            <img
+              src="assets/Twitter.svg"
+              class="icon-3"
+              alt="social media icons"
+              loading="lazy"
+            />
+          </div>
         </div>
       </nav>
 
@@ -56,50 +63,71 @@
               </p>
             </div>
 
-            <div class="header-button">
-              <p>View My Work</p>
-              <img src="assets/Vector.svg" alt="Vector" />
-            </div>
+            <button class="header-button">
+              <span>View My Work</span>
+              <img src="assets/Vector.svg" alt="Vector" loading="lazy" />
+            </button>
           </div>
 
           <div class="photo-box">
             <div class="photo">
-              <img src="assets/self-portrait.jpg" alt="self-portrait" />
+              <img
+                src="assets/self-portrait.jpg"
+                alt="portrait of Magali Bogarin"
+                loading="lazy"
+              />
             </div>
           </div>
         </div>
-
+        <!-- tech-content -->
         <div class="tech-grid">
-          <div class="tech-text">
+          <div class="tech-text-box">
             <p>Core Technologies</p>
           </div>
 
           <div class="tech-stack">
-            <div class="tech-image-box">
+            <div class="tech-logo-box">
               <img
                 src="assets/html5-logo.svg"
                 class="logo-1"
                 alt="HTML5 logo"
+                loading="lazy"
               />
             </div>
 
-            <div class="tech-image-box">
-              <img src="assets/css-logo-2.svg" class="logo-2" alt="CSS3 logo" />
+            <div class="tech-logo-box">
+              <img
+                src="assets/css-logo-2.svg"
+                class="logo-2"
+                alt="CSS3 logo"
+                loading="lazy"
+              />
             </div>
 
-            <div class="tech-image-box">
-              <img src="assets/vscode.svg" class="logo-3" alt="VS Code logo" />
+            <div class="tech-logo-box">
+              <img
+                src="assets/vscode.svg"
+                class="logo-3"
+                alt="VS Code logo"
+                loading="lazy"
+              />
             </div>
 
-            <div class="tech-image-box">
-              <img src="assets/git-logo-3.svg" class="logo-4" alt="Git logo" />
+            <div class="tech-logo-box">
+              <img
+                src="assets/git-logo-3.svg"
+                class="logo-4"
+                alt="Git logo"
+                loading="lazy"
+              />
             </div>
 
-            <div class="tech-image-box">
+            <div class="tech-logo-box">
               <img
                 src="assets/figma-logo-1.svg"
                 class="logo-5"
                 alt="Figma logo"
+                loading="lazy"
               />
             </div>
           </div>
@@ -110,9 +138,9 @@
     <main id="main">
       <!-- === Case Studies === -->
       <section id="case-studies" class="case-studies">
-        <div class="page-title">
+        <div class="section-title">
           <!-- title -->
-          <h1 class="title">Case Studies</h1>
+          <h2 class="title">Case Studies</h2>
 
           <!-- intro text -->
           <p class="intro-text">
@@ -139,17 +167,22 @@
               responsive layouts and reusable UI components.
             </p>
             <!-- view button -->
-            <button id="orange" class="view-button">
+            <div id="orange" class="view-button">
               <span>View Work</span>
-              <img src="assets/right-arrow-icon.svg" alt="know-vector-icon" />
-            </button>
+              <img
+                src="assets/right-arrow-icon.svg"
+                alt="know-vector-icon"
+                loading="lazy"
+              />
+            </div>
           </div>
           <!-- photo -->
-          <div class="image-box">
+          <div class="cs-image-box">
             <div class="work-image">
               <img
                 src="assets/CS-image-1.svg"
                 alt="Screenshot of TaskFlow dashboard interface"
+                loading="lazy"
               />
             </div>
           </div>
@@ -158,11 +191,12 @@
         <!-- WORK 2 -->
         <div class="cs-box">
           <!-- photo -->
-          <div class="image-box">
+          <div class="cs-image-box">
             <div class="work-image">
               <img
                 src="assets/CS-image-2.svg"
                 alt="Screenshot of LearnHub landing page"
+                loading="lazy"
               />
             </div>
           </div>
@@ -186,7 +220,11 @@
             <!-- view button -->
             <button id="blue" class="view-button">
               <span>View Work</span>
-              <img src="assets/right-arrow-icon.svg" alt="know-vector-icon" />
+              <img
+                src="assets/right-arrow-icon.svg"
+                alt="know-vector-icon"
+                loading="lazy"
+              />
             </button>
           </div>
         </div>
@@ -212,15 +250,20 @@
             <!-- view button -->
             <button id="green" class="view-button">
               <span>View Work</span>
-              <img src="assets/right-arrow-icon.svg" alt="know-vector-icon" />
+              <img
+                src="assets/right-arrow-icon.svg"
+                alt="know-vector-icon"
+                loading="lazy"
+              />
             </button>
           </div>
           <!-- photo -->
-          <div class="image-box">
+          <div class="cs-image-box">
             <div class="work-image">
               <img
                 src="assets/CS-image-3.svg"
                 alt="Screenshot of FitTrack dashboard interface"
+                loading="lazy"
               />
             </div>
           </div>
@@ -229,9 +272,9 @@
 
       <!-- ========== TESTIMONIALS ========== -->
       <section id="testimonials" class="testimonials">
-        <div class="page-title">
+        <div class="section-title">
           <!-- title -->
-          <h1 class="title">Testimonials</h1>
+          <h2 class="title">Testimonials</h2>
 
           <!-- intro text -->
           <p class="intro-text">
@@ -248,22 +291,26 @@
         <div class="content-grid">
           <!-- T-1 -->
 
-          <div id="t-box-1" class="t-box">
+          <figure id="t-box-1" class="t-box">
             <p>
               Magali consistently delivers clean, efficient code and
               communicates clearly throughout projects.
             </p>
             <div class="t-photo-content">
               <div class="t-photo-box">
-                <img src="https://placehold.co/50x50" alt="Client photo" />
+                <img
+                  src="https://placehold.co/50x50"
+                  alt="Client photo"
+                  loading="lazy"
+                />
               </div>
 
               <h2>— Daniel Rivera, Product Designer</h2>
             </div>
-          </div>
+          </figure>
 
           <!-- T-2 -->
-          <div id="t-box-2" class="t-box">
+          <figure id="t-box-2" class="t-box">
             <p>
               Her ability to translate design into responsive layouts is
               impressive and reliable.
@@ -271,18 +318,22 @@
 
             <div class="t-photo-content">
               <div class="t-photo-box">
-                <img src="https://placehold.co/50x50" alt="Client photo" />
+                <img
+                  src="https://placehold.co/50x50"
+                  alt="Client photo"
+                  loading="lazy"
+                />
               </div>
 
               <h2>— Sofia Martinez, UI Lead</h2>
             </div>
-          </div>
+          </figure>
         </div>
 
         <div class="content-grid">
           <!-- T-3 -->
 
-          <div class="t-box">
+          <figure class="t-box">
             <p>
               She approaches problems logically and always finds solutions that
               improve usability.
@@ -290,15 +341,19 @@
 
             <div class="t-photo-content">
               <div class="t-photo-box">
-                <img src="https://placehold.co/50x50" alt="Client photo" />
+                <img
+                  src="https://placehold.co/50x50"
+                  alt="Client photo"
+                  loading="lazy"
+                />
               </div>
 
               <h2>— Jason Lee, Project Manager</h2>
             </div>
-          </div>
+          </figure>
 
           <!-- T-4 -->
-          <div class="t-box">
+          <figure class="t-box">
             <p>
               Professional, detail-oriented, and fast. I'd collaborate with her
               again anytime.
@@ -306,19 +361,23 @@
 
             <div class="t-photo-content">
               <div class="t-photo-box">
-                <img src="https://placehold.co/50x50" alt="Client photo" />
+                <img
+                  src="https://placehold.co/50x50"
+                  alt="Client photo"
+                  loading="lazy"
+                />
               </div>
               <h2>Rachel Kim, Developer</h2>
             </div>
-          </div>
+          </figure>
         </div>
       </section>
 
       <!-- ========== RECENT WORK ========== -->
       <section id="recent-work" class="recent-work">
-        <div class="page-title">
+        <div class="section-title">
           <!-- title -->
-          <h1 class="title">Recent Work</h1>
+          <h2 class="title">Recent Work</h2>
 
           <!-- intro text -->
           <p class="intro-text">
@@ -332,8 +391,12 @@
           <!-- work 1 -->
           <div class="rw-content">
             <!-- photo -->
-            <div class="rw-photo-box">
-              <img src="assets/RW-image-1.svg" alt="Recent work photo" />
+            <div class="rw-image-box">
+              <img
+                src="assets/RW-image-1.svg"
+                alt="Screenshot of EventSpace venue website homepage"
+                loading="lazy"
+              />
             </div>
             <!-- text -->
             <h2>EventSpace Website</h2>
@@ -344,15 +407,23 @@
             <!-- button -->
             <button class="know-button">
               <span>Know more</span>
-              <img src="assets/right-arrow-icon.svg" alt="know-vector-icon" />
+              <img
+                src="assets/right-arrow-icon.svg"
+                alt="know-vector-icon"
+                loading="lazy"
+              />
             </button>
           </div>
 
           <!-- work 2 -->
           <div class="rw-content">
             <!-- photo -->
-            <div class="rw-photo-box">
-              <img src="assets/RW-image-2.svg" alt="Recent work photo" />
+            <div class="rw-image-box">
+              <img
+                src="assets/RW-image-2.svg"
+                alt="Screenshot of WeatherNow app dashboard interface"
+                loading="lazy"
+              />
             </div>
             <!-- text -->
             <h2>WeatherNow App</h2>
@@ -363,7 +434,11 @@
             <!-- button -->
             <button class="know-button">
               <span>Know more</span>
-              <img src="assets/right-arrow-icon.svg" alt="right arrow vector" />
+              <img
+                src="assets/right-arrow-icon.svg"
+                alt="right arrow vector"
+                loading="lazy"
+              />
             </button>
           </div>
         </div>
@@ -371,9 +446,9 @@
 
       <!-- ========== CONTACT ========== -->
       <section id="contact" class="contact">
-        <div class="page-title">
+        <div class="section-title">
           <!-- title -->
-          <h1 class="title">Get In Touch</h1>
+          <h2 class="title">Get In Touch</h2>
 
           <!-- intro text -->
           <p class="intro-text">
@@ -388,8 +463,9 @@
           <div class="input-box">
             <label for="email">Email</label>
             <input
+              id="email"
               type="email"
-              placeholder="Please enter your email"
+              placeholder="Enter your email"
               required
             />
           </div>
@@ -397,19 +473,31 @@
           <!-- mobile -->
           <div class="input-box">
             <label for="mobile">Mobile</label>
-            <input type="text" placeholder="Enter mobile " />
+            <input
+              id="mobile"
+              type="tel"
+              placeholder="Enter your phone number"
+            />
           </div>
 
           <!-- message -->
           <div class="input-box">
             <label for="message">Message</label>
-            <textarea placeholder="Enter your message" required></textarea>
+            <textarea
+              id="message"
+              placeholder="Enter your message..."
+              required
+            ></textarea>
           </div>
 
           <!-- submit -->
           <div class="submit-btn">
             <input type="submit" value="Submit" />
-            <img src="assets/right-arrow-icon.svg" alt="right arrow vector" />
+            <img
+              src="assets/right-arrow-icon.svg"
+              alt="right arrow vector"
+              loading="lazy"
+            />
           </div>
         </form>
       </section>
