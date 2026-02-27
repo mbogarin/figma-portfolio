@@ -76,7 +76,7 @@ Developers may also use it as a reference for structuring responsive layouts bas
 
 ### Hero About Section
 
-![About Me Banner](assets/hero-about.png)
+![About Me Banner](assets/hero-banner.png)
 
 ---
 
@@ -100,7 +100,7 @@ Developers may also use it as a reference for structuring responsive layouts bas
 
 ### Contact Form
 
-![Contact Section](assets/contact.png)
+![Contact Section](assets/contact-form.png)
 
 ---
 
