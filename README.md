@@ -1,4 +1,4 @@
-# figma-porfolio_magali
+# figma-portfolio
 
 HTML/CSS final assignment - Figma Design Mockup
 
